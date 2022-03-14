@@ -490,10 +490,20 @@
                 <div class="col-lg-6">
 
                     <form action="https://formsubmit.co/mukewajack@gmail.com" method="POST">
-                        <input type="text" name="name" required>
-                        <input type="email" name="email" required>
-                        <button type="submit">Send</button>
-                   </form>    
+                        <div class="form-group">    
+                            <input type="text" name="name" id="cname" required>
+                            <label class="label-control" for="cname">Name</label>
+                        </div>
+
+                        <div>    
+                            <input type="email" name="email" id="email" required>
+                            <label class="label-control" for="cname">email</label>
+                        </div>
+                        
+                        <div>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>    
                     
                     
                     <!-- Contact Form 
