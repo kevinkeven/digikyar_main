@@ -882,7 +882,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 6rem;
 	height: 6rem;
-	background: url('../images/mhexagon-red.svg') center center no-repeat;
+	background: url('../images/hexagon-red.svg') center center no-repeat;
 	background-size: 6rem 6rem;
 }
 
@@ -1701,12 +1701,33 @@ input[type='checkbox'] {
 	background: url('../images/hexagon-green.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
+
+}
+
+
+
+.form-2 .fa-stackred .hexagonred {
+	position: absolute;
+	width: 3.25rem;
+	height: 3.25rem;
+	background: url('../images/hexagon-red.svg') center center no-repeat;
+	background-size: 3.25rem 3.25rem;
+	transition: all 0.2s ease;
+	
 }
 
 .form-2 .fa-stack:hover .hexagon {
 	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 }
+
+
+
+.form-2 .fa-stackred:hover .hexagonred {
+	background: url('../images/hexagon-white.svg') center center no-repeat;
+	background-size: 3.25rem 3.25rem;
+}
+
 
 .form-2 .fa-stack-1x {
 	font-size: 1.5rem;
@@ -1719,6 +1740,10 @@ input[type='checkbox'] {
 	color: #236fb6;
 }
 
+
+.form-2 .fa-stackred:hover .fa-stack-1x {
+	color: #ff0000;
+}
 
 /**********************/
 /*     17. Footer     */
