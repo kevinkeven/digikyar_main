@@ -877,6 +877,16 @@ input[type='checkbox'] {
 	background-size: 6rem 6rem;
 }
 
+
+.cards-1 .youtube-class .hexagon {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background: url('../images/hexagon-red.svg') center center no-repeat;
+	background-size: 6rem 6rem;
+}
+
+
 .cards-1 .fa-stack-1x {
 	color: #fff;
 	font-size: 2rem;
