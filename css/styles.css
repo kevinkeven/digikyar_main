@@ -1552,6 +1552,14 @@ input[type='checkbox'] {
 	margin-left: 0.125rem;
 }
 
+
+.basic-2 .fa-stackred {
+	width: 1.75rem;
+	height: 1.75rem;
+	margin-right: 0.125rem;
+	margin-left: 0.125rem;
+}
+
 .basic-2 .fa-stack .hexagon {
 	position: absolute;
 	left: 0;
@@ -1562,7 +1570,23 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
+
+.basic-2 .fa-stackred .hexagonred {
+	position: absolute;
+	left: 0;
+	width: 1.75rem;
+	height: 1.75rem;
+	background: url('../images/hexagon-red.svg') center center no-repeat;
+	background-size: 1.75rem 1.75rem;
+	transition: all 0.2s ease;
+}
+
 .basic-2 .fa-stack:hover .hexagon {
+	background: url('../images/hexagon-white.svg') center center no-repeat;
+	background-size: 1.75rem 1.75rem;
+}
+
+.basic-2 .fa-stackred:hover .hexagonred {
 	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 1.75rem 1.75rem;
 }
@@ -1574,10 +1598,21 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
+.basic-2 .fa-stack-1x2 {
+	font-size: 0.6875rem;
+	line-height: 1.75rem;
+	color: #fff;
+	transition: all 0.2s ease;
+}
+
+
 .basic-2 .fa-stack:hover .fa-stack-1x {
 	color: #236fb6;
 }
 
+.basic-2 .fa-stackred:hover .fa-stack-1x2 {
+	color: #ff0000;
+}
 
 /*********************/
 /*     15. About     */
@@ -1694,6 +1729,15 @@ input[type='checkbox'] {
 	height: 3.25rem;
 }
 
+
+.form-2 .fa-stackred {
+	margin-right: 0.25rem;
+	margin-bottom: 0.75rem;
+	margin-left: 0.125rem;
+	width: 3.25rem;
+	height: 3.25rem;
+}
+
 .form-2 .fa-stack .hexagon {
 	position: absolute;
 	width: 3.25rem;
@@ -1736,16 +1780,20 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-/*
+.form-2 .fa-stack-1x2 {
+	font-size: 1.5rem;
+	line-height: 3.25rem;
+	color: #fff;
+	transition: all 0.2s ease;
+}
+
 
 .form-2 .fa-stack:hover .fa-stack-1x {
 	color: #236fb6;
 }
 
-*/
 
-
-.form-2 .fa-stackred:hover .fa-stack-1x {
+.form-2 .fa-stackred:hover .fa-stack-1x2 {
 	color: #ff0000;
 }
 
