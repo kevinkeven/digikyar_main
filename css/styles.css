@@ -1736,9 +1736,13 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-/*.form-2 .fa-stack:hover .fa-stack-1x {
+/*
+
+.form-2 .fa-stack:hover .fa-stack-1x {
 	color: #236fb6;
-}*/
+}
+
+*/
 
 
 .form-2 .fa-stackred:hover .fa-stack-1x {
