@@ -84,7 +84,6 @@
                         <span class="hexagon"></span>
                         <i class="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
-
                 </span>
                 <span class="fa-stack">
                     <a href="https://twitter.com/digikyar">
@@ -376,9 +375,9 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-12">
                 
-                    <button class="btn btn-primary"><a href="https://da.digikyar.org/accounts/login/?next=%2F%23%2F#/" style="color: white;">Log In</a></button>
+                    <button class="btn btn-primary"><a href="https://da.digikyar.org/accounts/login/?next=%2F%23%2F#/" style="color: white;">Sing in</a></button>
 
-                    <button class="btn btn-primary"><a href="https://da.digikyar.org/accounts/register/#/" style="color: white;">Sign Up</a></button>
+                    <button class="btn btn-primary"><a href="https://da.digikyar.org/accounts/register/#/" style="color: white;">Sing up</a></button>
 
 
                 </div>
@@ -482,7 +481,7 @@
                         <span class="fa-stack">
                             <a href="https://www.linkedin.com/in/digikyar-application-445189237/">
                                 <span class="hexagon"></span>
-                                <i class="fab fa-linkedin-in fa-stack-1"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x2 fa-stack-1x"></i>
                             </a>
                         </span>
                          
@@ -490,28 +489,34 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
 
-                    <form action="https://formsubmit.co/66a803744bf7198e3f84d099dbc03222" method="POST">
-                        <div class="form-group">    
-                            <input type="text" class="form-control-input" name="name" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                        </div>
 
-                        <div class="form-group">    
-                            <input type="email" class="form-control-input" name="email" id="email" required>
-                            <label class="label-control" for="cname">email</label>
+                    <form id="contactForm" data-toggle="validator" action="contactform-process.php" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Name</label>
+                            <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" name="message" required></textarea>
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        
-                        <div class="form-message">
+
+                        <div class="form-group">
                             <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
                         </div>
-                    </form>    
-                    
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+
+                    </form>
                     
                     <!-- Contact Form 
                     <form id="contactForm" data-toggle="validator" data-focus="false" action="php/contactform-process.php" method="post">
@@ -568,7 +573,7 @@
                                 <a class="white" href="#header">Home</a>
                             </li>
                             <li>
-                                <a class="white" href="#featurees">Features</a>
+                                <a class="white" href="#featurees">features</a>
                             </li>
                             <li>
                                 <a class="white" href="#contact">Contact</a>
