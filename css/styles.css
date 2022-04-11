@@ -877,16 +877,6 @@ input[type='checkbox'] {
 	background-size: 6rem 6rem;
 }
 
-
-.cards-1 .fa-stackred .hexagonred {
-	position: absolute;
-	width: 6rem;
-	height: 6rem;
-	background: url('../images/hexagon-red.svg') center center no-repeat;
-	background-size: 6rem 6rem;
-}
-
-
 .cards-1 .fa-stack-1x {
 	color: #fff;
 	font-size: 2rem;
@@ -1552,14 +1542,6 @@ input[type='checkbox'] {
 	margin-left: 0.125rem;
 }
 
-
-.basic-2 .fa-stackred {
-	width: 1.75rem;
-	height: 1.75rem;
-	margin-right: 0.125rem;
-	margin-left: 0.125rem;
-}
-
 .basic-2 .fa-stack .hexagon {
 	position: absolute;
 	left: 0;
@@ -1570,8 +1552,12 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
+.basic-2 .fa-stack:hover .hexagon {
+	background: url('../images/hexagon-white.svg') center center no-repeat;
+	background-size: 1.75rem 1.75rem;
+}
 
-.basic-2 .fa-stackred .hexagonred {
+.basic-2 .fa-stack .hexagon-2 {
 	position: absolute;
 	left: 0;
 	width: 1.75rem;
@@ -1581,15 +1567,11 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.basic-2 .fa-stack:hover .hexagon {
+.basic-2 .fa-stack:hover .hexagon-2 {
 	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 1.75rem 1.75rem;
 }
 
-.basic-2 .fa-stackred:hover .hexagonred {
-	background: url('../images/hexagon-white.svg') center center no-repeat;
-	background-size: 1.75rem 1.75rem;
-}
 
 .basic-2 .fa-stack-1x {
 	font-size: 0.6875rem;
@@ -1598,21 +1580,10 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.basic-2 .fa-stack-1x2 {
-	font-size: 0.6875rem;
-	line-height: 1.75rem;
-	color: #fff;
-	transition: all 0.2s ease;
-}
-
-
 .basic-2 .fa-stack:hover .fa-stack-1x {
 	color: #236fb6;
 }
 
-.basic-2 .fa-stackred:hover .fa-stack-1x2 {
-	color: #ff0000;
-}
 
 /*********************/
 /*     15. About     */
@@ -1729,15 +1700,6 @@ input[type='checkbox'] {
 	height: 3.25rem;
 }
 
-
-.form-2 .fa-stackred {
-	margin-right: 0.25rem;
-	margin-bottom: 0.75rem;
-	margin-left: 0.125rem;
-	width: 3.25rem;
-	height: 3.25rem;
-}
-
 .form-2 .fa-stack .hexagon {
 	position: absolute;
 	width: 3.25rem;
@@ -1745,19 +1707,6 @@ input[type='checkbox'] {
 	background: url('../images/hexagon-green.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
-
-}
-
-
-
-.form-2 .fa-stackred .hexagonred {
-	position: absolute;
-	width: 3.25rem;
-	height: 3.25rem;
-	background: url('../images/hexagon-red.svg') center center no-repeat;
-	background-size: 3.25rem 3.25rem;
-	transition: all 0.2s ease;
-	
 }
 
 .form-2 .fa-stack:hover .hexagon {
@@ -1766,12 +1715,19 @@ input[type='checkbox'] {
 }
 
 
+.form-2 .fa-stack .hexagon-2 {
+	position: absolute;
+	width: 3.25rem;
+	height: 3.25rem;
+	background: url('../images/hexagon-red.svg') center center no-repeat;
+	background-size: 3.25rem 3.25rem;
+	transition: all 0.2s ease;
+}
 
-.form-2 .fa-stackred:hover .hexagonred {
+.form-2 .fa-stack:hover .hexagon-2 {
 	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 }
-
 
 .form-2 .fa-stack-1x {
 	font-size: 1.5rem;
@@ -1780,22 +1736,16 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.form-2 .fa-stack-1x2 {
-	font-size: 1.5rem;
-	line-height: 3.25rem;
-	color: #fff;
-	transition: all 0.2s ease;
-}
 
 
 .form-2 .fa-stack:hover .fa-stack-1x {
 	color: #236fb6;
 }
 
-
-.form-2 .fa-stackred:hover .fa-stack-1x2 {
-	color: #ff0000;
+.form-2 .fa-stack:hover .fa-stack-1x2 {
+	color: #FF0000;
 }
+
 
 /**********************/
 /*     17. Footer     */
